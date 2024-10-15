@@ -18,7 +18,7 @@ The **Rideshare Driver Validation System** is a back-end application designed to
 - **SOLID Principles**
 - **Builder Design Pattern**
 
-## Installation
+## Installation and Usage
 1. Clone the repository:
    ```bash
    git clone https://github.com/jshuang2/RideShare_Driver_Validation_System.git
