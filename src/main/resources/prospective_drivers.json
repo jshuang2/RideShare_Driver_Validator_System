@@ -1,0 +1,472 @@
+{
+  "prospective_drivers": [
+    {
+      "name": {
+        "firstName": "Jeff",
+        "lastName": "Huang"
+      },
+      "birthdate": "1990-06-15",
+      "driversLicense": {
+        "uniqueNumber": "D123456789",
+        "name": {
+          "firstName": "Jeff",
+          "lastName": "Huang"
+        },
+        "address": "123 Main St, Seattle, WA",
+        "birthdate": "1990-06-15",
+        "state": "WA",
+        "country": "USA",
+        "issuanceDate": "2020-05-01",
+        "expirationDate": "2025-05-01"
+      },
+      "vehicles": [
+        {
+          "make": "Toyota",
+          "model": "Corolla",
+          "color": "Blue",
+          "year": 2011,
+          "plateNumber": "ABC-123",
+          "owner": {
+            "firstName": "Jeff",
+            "lastName": "Huang"
+          },
+          "history": {
+            "violations": [
+              {
+                "type": "MOVING_VIOLATION",
+                "violationType": "SPEEDING",
+                "date": "2023-03-15"
+              }
+            ],
+            "crashes": [
+              {
+                "type": "FENDER_BENDER",
+                "date": "2023-04-10",
+                "offendingDriverName": {
+                  "firstName": "Jeff",
+                  "lastName": "Huang"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "Jeff",
+          "lastName": "Huang"
+        },
+        "driversCovered": [
+          {
+            "firstName": "Jeff",
+            "lastName": "Huang"
+          }
+        ],
+        "expirationDate": "2024-05-01"
+      },
+      "driverHistory": {
+        "violations": [
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "DISTRACTED_DRIVING",
+            "date": "2023-01-10"
+          },
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "SPEEDING",
+            "date": "2024-12-10"
+          },
+          {
+            "type": "NON_MOVING_VIOLATION",
+            "violationType": "PARKING_VIOLATION",
+            "date": "2020-03-10"
+          }
+        ],
+        "crashes": []
+      }
+    },
+    {
+      "name": {
+        "firstName": "John",
+        "lastName": "Doe"
+      },
+      "birthdate": "1985-08-22",
+      "driversLicense": {
+        "uniqueNumber": "S987654321",
+        "name": {
+          "firstName": "John",
+          "lastName": "Doe"
+        },
+        "address": "456 Elm St, Seattle, WA",
+        "birthdate": "1985-08-22",
+        "state": "WA",
+        "country": "USA",
+        "issuanceDate": "2018-07-01",
+        "expirationDate": "2023-07-01"
+      },
+      "vehicles": [
+        {
+          "make": "Honda",
+          "model": "Accord",
+          "color": "Silver",
+          "year": 2015,
+          "plateNumber": "FYD-321",
+          "owner": {
+            "firstName": "John",
+            "lastName": "Doe"
+          },
+          "history": {
+            "violations": [],
+            "crashes": []
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "John",
+          "lastName": "Doe"
+        },
+        "driversCovered": [
+          {
+            "firstName": "John",
+            "lastName": "Doe"
+          }
+        ],
+        "expirationDate": "2024-07-01"
+      },
+      "driverHistory": {
+        "violations": [],
+        "crashes": []
+      }
+    },
+    {
+      "name": {
+        "firstName": "Michael",
+        "lastName": "Johnson"
+      },
+      "birthdate": "1982-11-05",
+      "driversLicense": {
+        "uniqueNumber": "M345678912",
+        "name": {
+          "firstName": "Michael",
+          "lastName": "Johnson"
+        },
+        "address": "789 Pine St, Bellevue, WA",
+        "birthdate": "1982-11-05",
+        "state": "WA",
+        "country": "USA",
+        "issuanceDate": "2019-09-15",
+        "expirationDate": "2024-09-15"
+      },
+      "vehicles": [
+        {
+          "make": "Ford",
+          "model": "Explorer",
+          "year": 2018,
+          "color": "White",
+          "plateNumber": "JKY-012",
+          "owner": {
+            "firstName": "Michael",
+            "lastName": "Johnson"
+          },
+          "history": {
+            "violations": [
+              {
+                "type": "MOVING_VIOLATION",
+                "violationType": "RECKLESS_DRIVING",
+                "date": "2023-06-01"
+              }
+            ],
+            "crashes": []
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "Michael",
+          "lastName": "Johnson"
+        },
+        "driversCovered": [
+          {
+            "firstName": "Michael",
+            "lastName": "Johnson"
+          }
+        ],
+        "expirationDate": "2025-09-15"
+      },
+      "driverHistory": {
+        "violations": [
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "DUI",
+            "date": "2022-12-25"
+          }
+        ],
+        "crashes": []
+      }
+    },
+    {
+      "name": {
+        "firstName": "Jason",
+        "lastName": "Huang"
+      },
+      "birthdate": "1990-06-15",
+      "driversLicense": {
+        "uniqueNumber": "D123456789",
+        "name": {
+          "firstName": "Jason",
+          "lastName": "Huang"
+        },
+        "address": "123 Main St, Seattle, WA",
+        "birthdate": "1990-06-15",
+        "state": "WA",
+        "country": "USA",
+        "issuanceDate": "2020-05-01",
+        "expirationDate": "2025-05-01"
+      },
+      "vehicles": [
+        {
+          "make": "Honda",
+          "model": "Accord",
+          "color": "Blue",
+          "year": 2011,
+          "plateNumber": "SKY-420",
+          "owner": {
+            "firstName": "Jason",
+            "lastName": "Huang"
+          },
+          "history": {
+            "violations": [
+              {
+                "type": "MOVING_VIOLATION",
+                "violationType": "SPEEDING",
+                "date": "2023-03-15"
+              }
+            ],
+            "crashes": [
+              {
+                "type": "FENDER_BENDER",
+                "date": "2023-04-10",
+                "offendingDriverName": {
+                  "firstName": "Jason",
+                  "lastName": "Huang"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "Jason",
+          "lastName": "Huang"
+        },
+        "driversCovered": [
+          {
+            "firstName": "Jason",
+            "lastName": "Huang"
+          }
+        ],
+        "expirationDate": "2025-05-01"
+      },
+      "driverHistory": {
+        "violations": [
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "DISTRACTED_DRIVING",
+            "date": "2023-01-10"
+          },
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "SPEEDING",
+            "date": "2024-12-10"
+          },
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "FAILURE_TO_RESPECT_SIGNS",
+            "date": "2022-12-10"
+          },
+          {
+            "type": "NON_MOVING_VIOLATION",
+            "violationType": "PARKING_VIOLATION",
+            "date": "2020-03-10"
+          }
+        ],
+        "crashes": []
+      }
+    },
+    {
+      "name": {
+        "firstName": "Alice",
+        "lastName": "Smith"
+      },
+      "birthdate": "1995-05-20",
+      "driversLicense": {
+        "uniqueNumber": "C567890123",
+        "name": {
+          "firstName": "Alice",
+          "lastName": "Smith"
+        },
+        "address": "789 Pine St, Bellevue, WA",
+        "birthdate": "1995-05-20",
+        "state": "WA",
+        "country": "USA",
+        "issuanceDate": "2019-05-01",
+        "expirationDate": "2028-05-01"
+      },
+      "vehicles": [
+        {
+          "make": "Tesla",
+          "model": "Model 3",
+          "color": "Red",
+          "year": 2019,
+          "plateNumber": "TESLA123",
+          "owner": {
+            "firstName": "Alice",
+            "lastName": "Smith"
+          },
+          "history": {
+            "violations": [],
+            "crashes": []
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "Alice",
+          "lastName": "Smith"
+        },
+        "driversCovered": [
+          {
+            "firstName": "Alice",
+            "lastName": "Smith"
+          }
+        ],
+        "expirationDate": "2025-05-01"
+      },
+      "driverHistory": {
+        "violations": [],
+        "crashes": []
+      }
+    },
+    {
+      "name": {
+        "firstName": "Bob",
+        "lastName": "Clark"
+      },
+      "birthdate": "1992-03-10",
+      "driversLicense": {
+        "uniqueNumber": "B890123456",
+        "name": {
+          "firstName": "Bob",
+          "lastName": "Clark"
+        },
+        "address": "101 Maple St, Vancouver, BC",
+        "birthdate": "1992-03-10",
+        "state": "BC",
+        "country": "Canada",
+        "issuanceDate": "2018-02-01",
+        "expirationDate": "2030-02-01"
+      },
+      "vehicles": [
+        {
+          "make": "Chevrolet",
+          "model": "Malibu",
+          "color": "Black",
+          "year": 2018,
+          "plateNumber": "CHEV123",
+          "owner": {
+            "firstName": "Bob",
+            "lastName": "Miller"
+          },
+          "history": {
+            "violations": [],
+            "crashes": []
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "Bob",
+          "lastName": "Clark"
+        },
+        "driversCovered": [
+          {
+            "firstName": "Bob",
+            "lastName": "Clark"
+          }
+        ],
+        "expirationDate": "2025-02-01"
+      },
+      "driverHistory": {
+        "violations": [],
+        "crashes": []
+      }
+    },
+    {
+      "name": {
+        "firstName": "Emily",
+        "lastName": "Clark"
+      },
+      "birthdate": "1991-07-12",
+      "driversLicense": {
+        "uniqueNumber": "E456789012",
+        "name": {
+          "firstName": "Emily",
+          "lastName": "Clark"
+        },
+        "address": "202 Oak St, Toronto, ON",
+        "birthdate": "1991-07-12",
+        "state": "ON",
+        "country": "Canada",
+        "issuanceDate": "2017-08-15",
+        "expirationDate": "2025-08-15"
+      },
+      "vehicles": [
+        {
+          "make": "Toyota",
+          "model": "Camry",
+          "color": "Grey",
+          "year": 2018,
+          "plateNumber": "CAMRY321",
+          "owner": {
+            "firstName": "Emily",
+            "lastName": "Clark"
+          },
+          "history": {
+            "violations": [],
+            "crashes": []
+          }
+        }
+      ],
+      "insurance": {
+        "vehicleOwner": {
+          "firstName": "Emily",
+          "lastName": "Clark"
+        },
+        "driversCovered": [
+          {
+            "firstName": "Emily",
+            "lastName": "Clark"
+          }
+        ],
+        "expirationDate": "2025-08-15"
+      },
+      "driverHistory": {
+        "violations": [
+          {
+            "type": "MOVING_VIOLATION",
+            "violationType": "DISTRACTED_DRIVING",
+            "date": "2022-12-10"
+          },
+          {
+            "type": "NON_MOVING_VIOLATION",
+            "violationType": "PARKING_VIOLATION",
+            "date": "2020-03-10"
+          }
+        ],
+        "crashes": []
+      }
+    }
+  ]
+}
